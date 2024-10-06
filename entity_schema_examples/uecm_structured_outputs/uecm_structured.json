@@ -1,0 +1,470 @@
+{
+    "metadata": {
+        "research_goal": "Research forms of breast cancer and treatment drugs that are currently use",
+        "structured_entities": {
+            "drug: drugbank_id": 1
+        },
+        "database_schema": {
+            "tables": {
+                "cancer_research_data": {
+                    "columns": {
+                        "id": {
+                            "type": "TEXT",
+                            "nullable": true,
+                            "primary_key": 1
+                        },
+                        "label": {
+                            "type": "TEXT",
+                            "nullable": true,
+                            "primary_key": 0
+                        },
+                        "entity": {
+                            "type": "TEXT",
+                            "nullable": true,
+                            "primary_key": 0
+                        },
+                        "definition": {
+                            "type": "TEXT",
+                            "nullable": true,
+                            "primary_key": 0
+                        },
+                        "description": {
+                            "type": "TEXT",
+                            "nullable": true,
+                            "primary_key": 0
+                        },
+                        "relevance": {
+                            "type": "TEXT",
+                            "nullable": true,
+                            "primary_key": 0
+                        },
+                        "source_file": {
+                            "type": "TEXT",
+                            "nullable": true,
+                            "primary_key": 0
+                        },
+                        "data_type": {
+                            "type": "TEXT",
+                            "nullable": true,
+                            "primary_key": 0
+                        },
+                        "embedding": {
+                            "type": "BLOB",
+                            "nullable": true,
+                            "primary_key": 0
+                        }
+                    }
+                },
+                "json_data_DO_cancer_slim": {
+                    "columns": {
+                        "graphs": {
+                            "type": "TEXT",
+                            "nullable": true,
+                            "primary_key": 0
+                        }
+                    }
+                },
+                "drugs": {
+                    "columns": {
+                        "drugbank_id": {
+                            "type": "TEXT",
+                            "nullable": true,
+                            "primary_key": 1
+                        },
+                        "name": {
+                            "type": "TEXT",
+                            "nullable": false,
+                            "primary_key": 0
+                        },
+                        "description": {
+                            "type": "TEXT",
+                            "nullable": true,
+                            "primary_key": 0
+                        },
+                        "cas_number": {
+                            "type": "TEXT",
+                            "nullable": true,
+                            "primary_key": 0
+                        },
+                        "unii": {
+                            "type": "TEXT",
+                            "nullable": true,
+                            "primary_key": 0
+                        },
+                        "state": {
+                            "type": "TEXT",
+                            "nullable": true,
+                            "primary_key": 0
+                        },
+                        "indication": {
+                            "type": "TEXT",
+                            "nullable": true,
+                            "primary_key": 0
+                        },
+                        "pharmacodynamics": {
+                            "type": "TEXT",
+                            "nullable": true,
+                            "primary_key": 0
+                        },
+                        "mechanism_of_action": {
+                            "type": "TEXT",
+                            "nullable": true,
+                            "primary_key": 0
+                        },
+                        "toxicity": {
+                            "type": "TEXT",
+                            "nullable": true,
+                            "primary_key": 0
+                        },
+                        "metabolism": {
+                            "type": "TEXT",
+                            "nullable": true,
+                            "primary_key": 0
+                        },
+                        "absorption": {
+                            "type": "TEXT",
+                            "nullable": true,
+                            "primary_key": 0
+                        },
+                        "half_life": {
+                            "type": "TEXT",
+                            "nullable": true,
+                            "primary_key": 0
+                        },
+                        "protein_binding": {
+                            "type": "TEXT",
+                            "nullable": true,
+                            "primary_key": 0
+                        },
+                        "route_of_elimination": {
+                            "type": "TEXT",
+                            "nullable": true,
+                            "primary_key": 0
+                        },
+                        "volume_of_distribution": {
+                            "type": "TEXT",
+                            "nullable": true,
+                            "primary_key": 0
+                        },
+                        "clearance": {
+                            "type": "TEXT",
+                            "nullable": true,
+                            "primary_key": 0
+                        }
+                    }
+                },
+                "uecm_insights": {
+                    "columns": {
+                        "id": {
+                            "type": "TEXT",
+                            "nullable": true,
+                            "primary_key": 1
+                        },
+                        "entity_name": {
+                            "type": "TEXT",
+                            "nullable": true,
+                            "primary_key": 0
+                        },
+                        "entity_type": {
+                            "type": "TEXT",
+                            "nullable": true,
+                            "primary_key": 0
+                        },
+                        "attributes": {
+                            "type": "TEXT",
+                            "nullable": true,
+                            "primary_key": 0
+                        },
+                        "relationships": {
+                            "type": "TEXT",
+                            "nullable": true,
+                            "primary_key": 0
+                        },
+                        "relevance_score": {
+                            "type": "REAL",
+                            "nullable": true,
+                            "primary_key": 0
+                        },
+                        "confidence_score": {
+                            "type": "REAL",
+                            "nullable": true,
+                            "primary_key": 0
+                        },
+                        "source": {
+                            "type": "TEXT",
+                            "nullable": true,
+                            "primary_key": 0
+                        }
+                    }
+                }
+            }
+        },
+        "date_time": "2024-10-06 10:23:14",
+        "id": "56c6efac-6fe5-4c5b-bff1-af5841e5226e",
+        "schema_version": "2.0"
+    },
+    "entities": {
+        "breast_cancer": {
+            "type": "Unknown",
+            "attributes": [
+                "forms_of_breast_cancer",
+                "treatment_drugs"
+            ],
+            "relevance_score": 0.9
+        },
+        "drugbank_id": {
+            "type": "Unknown",
+            "attributes": [
+                "drug_name",
+                "description"
+            ],
+            "relevance_score": 0.8
+        }
+    },
+    "relationships": [
+        {
+            "entity1": "breast_cancer",
+            "entity2": "drugbank_id",
+            "type": "treatment",
+            "confidence_score": 0.7
+        }
+    ],
+    "sources": {
+        "cancer_research_data": {
+            "source_file": "cancer_research_data.csv",
+            "data_type": "csv"
+        },
+        "json_data_DO_cancer_slim": {
+            "source_file": "json_data_DO_cancer_slim.csv",
+            "data_type": "csv"
+        },
+        "drugs": {
+            "source_file": "drugs.csv",
+            "data_type": "csv"
+        },
+        "uecm_insights": {
+            "source_file": "uecm_insights.csv",
+            "data_type": "csv"
+        }
+    },
+    "adjacent_research_areas": [
+        "cancer_genomics",
+        "pharmacology"
+    ],
+    "topic_exploration_suggestions": [
+        {
+            "topic": "drug_resistance_mechanisms",
+            "relevance_score": 0.6
+        },
+        {
+            "topic": "personalized_cancer_treatment",
+            "relevance_score": 0.5
+        }
+    ],
+    "analysis_suggestions": [
+        {
+            "suggestion": "analyze_drugbank_data_for_breast_cancer",
+            "confidence_score": 0.9
+        },
+        {
+            "suggestion": "investigate_relationships_between_drugs_and_breast_cancer_subtypes",
+            "confidence_score": 0.8
+        }
+    ],
+    "database_structure": {
+        "tables": {
+            "cancer_research_data": {
+                "columns": {
+                    "id": {
+                        "type": "TEXT",
+                        "nullable": true,
+                        "primary_key": 1
+                    },
+                    "label": {
+                        "type": "TEXT",
+                        "nullable": true,
+                        "primary_key": 0
+                    },
+                    "entity": {
+                        "type": "TEXT",
+                        "nullable": true,
+                        "primary_key": 0
+                    },
+                    "definition": {
+                        "type": "TEXT",
+                        "nullable": true,
+                        "primary_key": 0
+                    },
+                    "description": {
+                        "type": "TEXT",
+                        "nullable": true,
+                        "primary_key": 0
+                    },
+                    "relevance": {
+                        "type": "TEXT",
+                        "nullable": true,
+                        "primary_key": 0
+                    },
+                    "source_file": {
+                        "type": "TEXT",
+                        "nullable": true,
+                        "primary_key": 0
+                    },
+                    "data_type": {
+                        "type": "TEXT",
+                        "nullable": true,
+                        "primary_key": 0
+                    },
+                    "embedding": {
+                        "type": "BLOB",
+                        "nullable": true,
+                        "primary_key": 0
+                    }
+                }
+            },
+            "json_data_DO_cancer_slim": {
+                "columns": {
+                    "graphs": {
+                        "type": "TEXT",
+                        "nullable": true,
+                        "primary_key": 0
+                    }
+                }
+            },
+            "drugs": {
+                "columns": {
+                    "drugbank_id": {
+                        "type": "TEXT",
+                        "nullable": true,
+                        "primary_key": 1
+                    },
+                    "name": {
+                        "type": "TEXT",
+                        "nullable": false,
+                        "primary_key": 0
+                    },
+                    "description": {
+                        "type": "TEXT",
+                        "nullable": true,
+                        "primary_key": 0
+                    },
+                    "cas_number": {
+                        "type": "TEXT",
+                        "nullable": true,
+                        "primary_key": 0
+                    },
+                    "unii": {
+                        "type": "TEXT",
+                        "nullable": true,
+                        "primary_key": 0
+                    },
+                    "state": {
+                        "type": "TEXT",
+                        "nullable": true,
+                        "primary_key": 0
+                    },
+                    "indication": {
+                        "type": "TEXT",
+                        "nullable": true,
+                        "primary_key": 0
+                    },
+                    "pharmacodynamics": {
+                        "type": "TEXT",
+                        "nullable": true,
+                        "primary_key": 0
+                    },
+                    "mechanism_of_action": {
+                        "type": "TEXT",
+                        "nullable": true,
+                        "primary_key": 0
+                    },
+                    "toxicity": {
+                        "type": "TEXT",
+                        "nullable": true,
+                        "primary_key": 0
+                    },
+                    "metabolism": {
+                        "type": "TEXT",
+                        "nullable": true,
+                        "primary_key": 0
+                    },
+                    "absorption": {
+                        "type": "TEXT",
+                        "nullable": true,
+                        "primary_key": 0
+                    },
+                    "half_life": {
+                        "type": "TEXT",
+                        "nullable": true,
+                        "primary_key": 0
+                    },
+                    "protein_binding": {
+                        "type": "TEXT",
+                        "nullable": true,
+                        "primary_key": 0
+                    },
+                    "route_of_elimination": {
+                        "type": "TEXT",
+                        "nullable": true,
+                        "primary_key": 0
+                    },
+                    "volume_of_distribution": {
+                        "type": "TEXT",
+                        "nullable": true,
+                        "primary_key": 0
+                    },
+                    "clearance": {
+                        "type": "TEXT",
+                        "nullable": true,
+                        "primary_key": 0
+                    }
+                }
+            },
+            "uecm_insights": {
+                "columns": {
+                    "id": {
+                        "type": "TEXT",
+                        "nullable": true,
+                        "primary_key": 1
+                    },
+                    "entity_name": {
+                        "type": "TEXT",
+                        "nullable": true,
+                        "primary_key": 0
+                    },
+                    "entity_type": {
+                        "type": "TEXT",
+                        "nullable": true,
+                        "primary_key": 0
+                    },
+                    "attributes": {
+                        "type": "TEXT",
+                        "nullable": true,
+                        "primary_key": 0
+                    },
+                    "relationships": {
+                        "type": "TEXT",
+                        "nullable": true,
+                        "primary_key": 0
+                    },
+                    "relevance_score": {
+                        "type": "REAL",
+                        "nullable": true,
+                        "primary_key": 0
+                    },
+                    "confidence_score": {
+                        "type": "REAL",
+                        "nullable": true,
+                        "primary_key": 0
+                    },
+                    "source": {
+                        "type": "TEXT",
+                        "nullable": true,
+                        "primary_key": 0
+                    }
+                }
+            }
+        },
+        "entity_mappings": []
+    }
+}

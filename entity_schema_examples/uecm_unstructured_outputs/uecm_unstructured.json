@@ -1,0 +1,527 @@
+{
+    "metadata": {
+        "research_goal": "Research goal: Research forms of breast cancer and treatment drugs that are currently use",
+        "date_time": "2024-10-06 14:47:22",
+        "id": "037dbba3-0aa8-4873-b967-008181b71e05",
+        "schema_version": "2.0"
+    },
+    "entities": [
+        {
+            "name": "disease: cancer",
+            "count": 2570,
+            "type": "Unknown"
+        },
+        {
+            "name": "disease: Cancer",
+            "count": 1718,
+            "type": "Unknown"
+        },
+        {
+            "name": "clinical_trial: Clinical Trials",
+            "count": 445,
+            "type": "Unknown"
+        },
+        {
+            "name": "clinical_trial: clinical trials",
+            "count": 441,
+            "type": "Unknown"
+        },
+        {
+            "name": "disease: cáncer",
+            "count": 439,
+            "type": "Unknown"
+        },
+        {
+            "name": "clinical_trial: Clinical Trial",
+            "count": 342,
+            "type": "Unknown"
+        },
+        {
+            "name": "disease: breast cancer",
+            "count": 236,
+            "type": "Unknown"
+        },
+        {
+            "name": "side_effect: side effects",
+            "count": 226,
+            "type": "Unknown"
+        },
+        {
+            "name": "treatment: tratamiento",
+            "count": 95,
+            "type": "Unknown"
+        },
+        {
+            "name": "treatment: treatment",
+            "count": 88,
+            "type": "Unknown"
+        },
+        {
+            "name": "disease: Breast Cancer",
+            "count": 78,
+            "type": "Unknown"
+        },
+        {
+            "name": "treatment: chemotherapy",
+            "count": 60,
+            "type": "Unknown"
+        },
+        {
+            "name": "disease: Melanoma",
+            "count": 53,
+            "type": "Unknown"
+        },
+        {
+            "name": "risk_factor: Risk Factors",
+            "count": 50,
+            "type": "Unknown"
+        },
+        {
+            "name": "symptom: symptoms",
+            "count": 49,
+            "type": "Unknown"
+        },
+        {
+            "name": "gene: genes",
+            "count": 47,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: Pembrolizumab",
+            "count": 46,
+            "type": "Unknown"
+        },
+        {
+            "name": "disease: Breast cancer",
+            "count": 46,
+            "type": "Unknown"
+        },
+        {
+            "name": "treatment: radiation therapy",
+            "count": 45,
+            "type": "Unknown"
+        },
+        {
+            "name": "treatment: hormone therapy",
+            "count": 44,
+            "type": "Unknown"
+        },
+        {
+            "name": "symptom: distress tolerance",
+            "count": 44,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: chemotherapy",
+            "count": 42,
+            "type": "Unknown"
+        },
+        {
+            "name": "gene: HMGCR",
+            "count": 41,
+            "type": "Unknown"
+        },
+        {
+            "name": "side_effect: side efects",
+            "count": 41,
+            "type": "Unknown"
+        },
+        {
+            "name": "treatment_type: surgery",
+            "count": 37,
+            "type": "Unknown"
+        },
+        {
+            "name": "disease: Lymphoma",
+            "count": 34,
+            "type": "Unknown"
+        },
+        {
+            "name": "treatment: immunotherapy",
+            "count": 34,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: Trastuzumab",
+            "count": 29,
+            "type": "Unknown"
+        },
+        {
+            "name": "disease: melanoma",
+            "count": 28,
+            "type": "Unknown"
+        },
+        {
+            "name": "disease: Leukemia",
+            "count": 28,
+            "type": "Unknown"
+        },
+        {
+            "name": "treatment: targeted therapy",
+            "count": 27,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: paclitaxel",
+            "count": 27,
+            "type": "Unknown"
+        },
+        {
+            "name": "disease: Non-small cell lung cancer",
+            "count": 27,
+            "type": "Unknown"
+        },
+        {
+            "name": "disease: cancers",
+            "count": 26,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: Daratumumab",
+            "count": 26,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: carboplatin",
+            "count": 26,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: cyclophosphamide",
+            "count": 26,
+            "type": "Unknown"
+        },
+        {
+            "name": "gene: SQLE",
+            "count": 26,
+            "type": "Unknown"
+        },
+        {
+            "name": "gene: SREBF2",
+            "count": 26,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: pembrolizumab",
+            "count": 25,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: drug",
+            "count": 25,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: Fluorouracil",
+            "count": 25,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: Cyclophosphamide",
+            "count": 25,
+            "type": "Unknown"
+        },
+        {
+            "name": "treatment_type: immunotherapy",
+            "count": 24,
+            "type": "Unknown"
+        },
+        {
+            "name": "treatment: surgery",
+            "count": 24,
+            "type": "Unknown"
+        },
+        {
+            "name": "disease: leukemia",
+            "count": 23,
+            "type": "Unknown"
+        },
+        {
+            "name": "symptom: pain",
+            "count": 23,
+            "type": "Unknown"
+        },
+        {
+            "name": "prognosis: prognosis",
+            "count": 23,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: Doxorubicin Hydrochloride",
+            "count": 23,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: Ipilimumab",
+            "count": 23,
+            "type": "Unknown"
+        },
+        {
+            "name": "treatment: Cancer Treatment",
+            "count": 23,
+            "type": "Unknown"
+        },
+        {
+            "name": "clinical_trial: confrmatory trial",
+            "count": 23,
+            "type": "Unknown"
+        },
+        {
+            "name": "clinical_trial: clinical trial",
+            "count": 22,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: medicamentos",
+            "count": 22,
+            "type": "Unknown"
+        },
+        {
+            "name": "disease: tumors",
+            "count": 21,
+            "type": "Unknown"
+        },
+        {
+            "name": "imaging: MRI",
+            "count": 21,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: dexamethasone",
+            "count": 21,
+            "type": "Unknown"
+        },
+        {
+            "name": "risk_factor: risk factors",
+            "count": 20,
+            "type": "Unknown"
+        },
+        {
+            "name": "treatment: Chemotherapy",
+            "count": 20,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: Atezolizumab",
+            "count": 20,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: cisplatin",
+            "count": 20,
+            "type": "Unknown"
+        },
+        {
+            "name": "disease: CML",
+            "count": 19,
+            "type": "Unknown"
+        },
+        {
+            "name": "biomarker: biomarkers",
+            "count": 19,
+            "type": "Unknown"
+        },
+        {
+            "name": "treatment_type: hyperthermia",
+            "count": 19,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: doxorubicin hydrochloride",
+            "count": 19,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: bevacizumab",
+            "count": 19,
+            "type": "Unknown"
+        },
+        {
+            "name": "disease: breast \ncancer",
+            "count": 19,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: Bevacizumab",
+            "count": 18,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: Filgrastim",
+            "count": 18,
+            "type": "Unknown"
+        },
+        {
+            "name": "disease: Skin Cancer",
+            "count": 18,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: trastuzumab",
+            "count": 18,
+            "type": "Unknown"
+        },
+        {
+            "name": "disease: Childhood Cancers",
+            "count": 18,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: prednisone",
+            "count": 18,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: Adriamycin",
+            "count": 18,
+            "type": "Unknown"
+        },
+        {
+            "name": "gene: HER2",
+            "count": 18,
+            "type": "Unknown"
+        },
+        {
+            "name": "disease: Multiple myeloma",
+            "count": 17,
+            "type": "Unknown"
+        },
+        {
+            "name": "treatment: photodynamic therapy",
+            "count": 17,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: Carmustine",
+            "count": 17,
+            "type": "Unknown"
+        },
+        {
+            "name": "symptom: physical health",
+            "count": 17,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: Denosumab",
+            "count": 16,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: Oxaliplatin",
+            "count": 16,
+            "type": "Unknown"
+        },
+        {
+            "name": "treatment_type: targeted therapy",
+            "count": 16,
+            "type": "Unknown"
+        },
+        {
+            "name": "disease: colorectal cancer",
+            "count": 16,
+            "type": "Unknown"
+        },
+        {
+            "name": "disease: Hodgkin lymphoma",
+            "count": 16,
+            "type": "Unknown"
+        },
+        {
+            "name": "disease: Colorectal cancer",
+            "count": 16,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: Etoposide",
+            "count": 16,
+            "type": "Unknown"
+        },
+        {
+            "name": "cancer_stage: cancer",
+            "count": 15,
+            "type": "Unknown"
+        },
+        {
+            "name": "disease: lymphoma",
+            "count": 15,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: Decitabine",
+            "count": 15,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: Lenalidomide",
+            "count": 15,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: Granisetron",
+            "count": 15,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: Docetaxel",
+            "count": 15,
+            "type": "Unknown"
+        },
+        {
+            "name": "disease: Non-Hodgkin Lymphoma",
+            "count": 15,
+            "type": "Unknown"
+        },
+        {
+            "name": "disease: liver cancer",
+            "count": 15,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: Blinatumomab",
+            "count": 15,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: irinotecan hydrochloride",
+            "count": 15,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: Cytarabine",
+            "count": 15,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: bortezomib",
+            "count": 15,
+            "type": "Unknown"
+        },
+        {
+            "name": "gene: PPARG",
+            "count": 14,
+            "type": "Unknown"
+        },
+        {
+            "name": "drug: Tocilizumab",
+            "count": 14,
+            "type": "Unknown"
+        }
+    ],
+    "relationships": [
+        {
+            "entity1": "entity",
+            "entity2": "network",
+            "type": "is associated with",
+            "confidence": 0.6
+        },
+        {
+            "entity1": "entity",
+            "entity2": "health",
+            "type": "is associated with",
+            "confidence": 0.7
+        }
+    ],
+    "sources": [
+        "unstructured_texts"
+    ]
+}
